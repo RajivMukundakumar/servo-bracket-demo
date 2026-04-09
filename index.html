@@ -25,6 +25,26 @@
         color: white;
     }
 </style>
+    <div class="card">
+    <model-viewer 
+        src="models/NEMA17_Stepper.glb" 
+        poster="images/NEMA17_thumbnail.png"
+        ar 
+        ar-modes="webxr scene-viewer quick-look" 
+        camera-controls 
+        shadow-intensity="1">
+    </model-viewer>
+
+    <div class="info">
+        <h3>NEMA 17 Stepper Motor</h3>
+        <p>Precision Digital Twin | Standard 40mm Body</p>
+        
+        <div class="btn-group">
+            <a href="downloads/NEMA17.stp" class="btn primary">Download STEP</a>
+            <a href="downloads/NEMA17.x_t" class="btn secondary">Parasolid</a>
+        </div>
+    </div>
+</div>
 </head>
 <body>
     <model-viewer src="Part1.glb" ar camera-controls shadow-intensity="1" touch-action="pan-y"
